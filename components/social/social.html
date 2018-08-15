@@ -1,0 +1,7 @@
+<button class="add-thought" ng-click="$ctrl.formVisible = true">New Thought</button>
+
+<post-form on-submit="$ctrl.onSubmit(newPost);" ng-if="$ctrl.formVisible === true"></post-form>
+
+<section class="post-container">
+    <post post="post" index="index" delete-post="$ctrl.deletePost(index);" ng-repeat="post in $ctrl.listOfPosts track by $index"></post>
+</section>

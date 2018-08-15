@@ -1,0 +1,11 @@
+<form ng-submit="$ctrl.onSubmit({newPost: $ctrl.postInfo});">
+    <section class="form-title">
+        <h2>Title</h2>
+        <input expand-on-focus type="text" placeholder="Post Title" ng-model="$ctrl.postInfo.title">
+    </section>
+    <section class="form-body">
+        <h2>Thought</h2>
+        <textarea expand-on-focus placeholder="Write your post here" ng-model="$ctrl.postInfo.body"></textarea>
+    </section>
+    <button type="submit">Add Post</button>
+</form>

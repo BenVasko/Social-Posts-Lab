@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f3f1f7;
+}
+
+.title {
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(3, 169, 244);
+    margin: 0 auto;
+}
+
+social-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.add-thought {
+    margin-top: 2%;
+    padding: 10px 0 10px 0;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.post-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4% 0 8% 0;
+    margin-top: 3%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+post {
+    width: 80%;
+    border-bottom: 1px solid lightgray;
+    margin: 1% auto;
+}
+
+form {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    background: #B1DDEA;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    left: 25%;
+    top: 13%;
+    z-index: 999;
+}
+
+form section {
+    width: 90%;
+    margin: 2% auto;
+}
+
+.form-title input, .form-body textarea {
+    padding: 0 10px 0 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 96%;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.form-title input {
+    height: 50px;
+}
+
+.form-body textarea {
+    height: 150px;
+}
+
+form button {
+    width: 90%;
+    padding: 15px;
+    margin: 2% auto;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.post-title {
+    font-size: 24px;
+}
+
+.post-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
